@@ -33,7 +33,7 @@ class Education extends Component {
             <div className="flex-item image right round" />
 
             <h2>Programmer for 1 year and 6 months</h2>
-            <h2>Trend International Company</h2>
+            <h2>Startup Company</h2>
             <h2> Riyadh</h2>
           </div>
         </section>

@@ -19,6 +19,13 @@
   color: white;
 }
 
+.width_hight {
+  width: 80%;
+  height: 90px;
+}
+.width_hight_2 {
+  width: 50% !important;
+}
 .App-link {
   color: #61dafb;
 }

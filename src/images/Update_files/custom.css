@@ -1,0 +1,156 @@
+body{
+
+    background:#f4f5f8;
+
+}
+.msa_margin_buttom {
+    margin-bottom:20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.padding-left-r-form{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.remove-underline:hover{
+    text-decoration: none;
+}
+
+.box-shadow {
+
+    box-shadow: 0px 0.175em 0.5em rgba(2, 8, 20, 0.1), 0px 0.085em 0.175em rgba(2, 8, 20, 0.08);
+}
+
+.add_distnation_button{
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #2d2b33;
+    color: #2d2b33!important;
+}
+
+.add_distnation_button:hover{
+    background-color: #2d2b33;
+    border: 1px solid #2d2b33;
+    color: #fff!important;
+    transition: 200ms ease, transform 200ms ease, -webkit-box-shadow 200ms ease, -webkit-transform 200ms ease;
+}
+
+.my-animate:hover{
+transform: translateY(-3px);
+-webkit-transform: translateY(-3px);
+transition: box-shadow 200ms ease, transform 200ms ease, -webkit-box-shadow 200ms ease, -webkit-transform 200ms ease;
+
+}
+
+.card-list-onhover:hover{
+    background: #f4f5f8;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+}
+
+.text-alin-center {
+padding :10px;
+text-align: center;
+}
+
+.navbar-brand-margin {
+    margin-left: 42%;
+}
+.card-img-top-ms { 
+width: 100%; /* You can set the dimensions to whatever you want */
+height: 200px;
+object-fit: cover;
+}
+
+.card-ms {
+
+    margin: 30px!important;
+    height: 390px!important;
+
+}
+
+.margin-top{
+    
+    margin-top: 20px;
+
+}
+
+.textinput {
+    border-radius: .25rem;
+    width: 30%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem; 
+}
+.nav-colored{
+
+    background: #2d2b33!important;
+    color:#fff!important;
+
+}
+.background-white{
+    background-color: #fff;
+    border-left: 1px solid #dee2e6;
+}
+
+.text-small{
+
+    font-size: 14px;
+
+}
+.textarea {
+    width:50%;
+    line-height: 24px;
+    font-size: 16px;
+    background: #fff;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem; 
+    padding:10px;
+
+}
+
+.margin-left-12{
+
+    margin-left: 12%;
+}
+.control-label{
+    margin-top:30px;
+    color:#2d2b33;
+}
+.asteriskField{
+    color:red;
+    padding:10px;
+
+}
+
+textarea.form-control {
+    height: auto;
+    padding:10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .add_distnation_button {
+      width:60%;
+    
+    }
+
+    .nav-link{
+        padding-left:20px!important;
+        margin-top:20px;
+    }
+}

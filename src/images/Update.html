@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:8000/destinations/update/1/ -->
+<html lang="en" class="gr__127_0_0_1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Add a link to the bootstrap CDN here -->
+  <link rel="stylesheet" href="./Update_files/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Update_files/animate.css">
+
+  
+  <!-- Uncomment the following line to include your custom CSS file -->
+    <link rel="stylesheet" type="text/css" href="./Update_files/custom.css"> 
+    <link rel="stylesheet" href="./Update_files/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>Update</title>
+</head>
+
+<body data-gr-c-s-loaded="true">
+   
+  
+  <!-- Navbar -->
+  
+        <nav class="nav-colored box-shadow navbar navbar-expand-lg navbar-dark bg-light">
+          <a class="navbar-brand-margin navbar-brand" href="http://127.0.0.1:8000/destinations/list/">TOURISTA</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+        </nav>
+    
+
+    <nav class=" box-shadow navbar navbar-expand-lg navbar-light bg-light">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav margin-left-12">
+          <li class="nav-item">
+            <a class="my-animate add_distnation_button nav-link" href="http://127.0.0.1:8000/destinations/create/">Add Destination</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+ 
+  <!-- End Navbar -->
+
+  <div class="container">
+    
+ <br>
+      <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="text-small nav-link active" href="http://127.0.0.1:8000/destinations/update/1/#">Adding Destination</a>
+              </li>
+      </ul>
+  <form class="padding-left-r-form background-white msa_margin_buttom" action="http://127.0.0.1:8000/destinations/update/1/" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="csrfmiddlewaretoken" value="LwSByLZfRqa18U7xslWJxEw5muj9NCp0GTt3eL6TM32s38yMp7x3cFReny4EZNly">
+    
+
+<div id="div_id_name" class="control-group"> <label for="id_name" class="control-label requiredField">
+                Name<span class="asteriskField">*</span> </label> <div class="controls"> <input type="text" name="name" value="Honolulu" maxlength="120" class="textinput textInput" required="" id="id_name"> </div> </div> <div id="div_id_description" class="control-group"> <label for="id_description" class="control-label requiredField">
+                Description<span class="asteriskField">*</span> </label> <div class="controls"> <textarea name="description" cols="40" rows="10" class="textarea" required="" id="id_description">If Oahu is the heart of Hawaii, then Honolulu is its racing pulse. In this cosmopolitan capital city, you’ll find everything from historic landmarks to fine dining to world-class shopping.</textarea> </div> </div> <div id="div_id_pretty_picture" class="control-group"> <label for="id_pretty_picture" class="control-label requiredField">
+                Pretty picture<span class="asteriskField">*</span> </label> <div class="controls">
+                
+                    Currently: <a href="http://127.0.0.1:8000/media/honolulu.jpg">honolulu.jpg</a><br>
+Change:
+<input type="file" name="pretty_picture" class="clearablefileinput" id="id_pretty_picture"> </div> </div> <div id="div_id_activities" class="control-group"> <label for="id_activities" class="control-label requiredField">
+                Activities<span class="asteriskField">*</span> </label> <div class="controls"> <textarea name="activities" cols="40" rows="10" class="textarea" required="" id="id_activities">boating, diving, beaching, burning</textarea> </div> </div> <div id="div_id_optimal_visiting_season" class="control-group"> <label for="id_optimal_visiting_season" class="control-label requiredField">
+                Optimal visiting season<span class="asteriskField">*</span> </label> <div class="controls"> <input type="text" name="optimal_visiting_season" value="ALL YEAR" maxlength="10" class="textinput textInput" required="" id="id_optimal_visiting_season"> </div> </div>
+
+
+  <button type="submit" class="btn btn-primary margin-top my-animate"> Update <i class="fas fa-pen"></i> </button>
+
+</form>
+
+  </div>
+
+
+
+
+
+  <!-- Add your bootstrap script tags here -->
+  <script src="./Update_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="./Update_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="./Update_files/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+
+</body></html>

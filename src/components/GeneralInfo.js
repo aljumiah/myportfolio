@@ -13,21 +13,16 @@ class GeneralInfo extends Component {
         <section id="main" className="wrapper">
           <div className="inner">
             <div className="flex-item image left round">
-              <img
-                className="width_hight_2 "
-                src={img_Gen_1}
-                height="300px"
-                alt=""
-              />
+              <img src={img_Gen_1} style={{ width: 300, height: 300 }} alt="" />
             </div>
             <br />
             <br />
             <br />
             <br />
             <ul>
-              <li>I am 26 years old</li>
-              <li>I am the oldest brother in my family</li>
-              <li>I live in Al-Muzahimya with my familiy</li>
+              <p>I am 26 years old</p>
+              <p>I am the oldest brother in my family</p>
+              <p>I live in Al-Muzahimya with my familiy</p>
             </ul>
           </div>
         </section>

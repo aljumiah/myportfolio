@@ -42,7 +42,7 @@ class Welcome extends Component {
               <img
                 src={img_welc_2}
                 alt=""
-                //style="width:80%;height: 90%;"
+                style={{ width: 300, height: 300 }}
                 className="width_hight"
               />
             </div>
